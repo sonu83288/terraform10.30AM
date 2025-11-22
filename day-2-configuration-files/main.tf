@@ -7,8 +7,10 @@ resource "aws_instance" "dev" {
     }
   
 }
-resource "aws_vpc" "name" {
+resource "aws_vpc" "sonu" {
     cidr_block = "10.0.0.0/24"
+    tags = {
+       name ="sonu"
 
   
 }
@@ -18,6 +20,7 @@ resource "aws_subnet" "name" {
   
 
 }
+
 
 
 
