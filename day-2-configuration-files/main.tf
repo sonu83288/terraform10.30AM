@@ -22,7 +22,7 @@ resource "aws_subnet" "name" {
            name = "subnet1"
      }
   }
-}
+
 
 
 
